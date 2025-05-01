@@ -1,0 +1,52 @@
+preqs:
+# install blender
+# install godot
+
+# 1. make player_character_placeholder
+   // is all object placeholders?
+
+# 2. make floor
+
+3. make player_character_placeholder move across floor
+   // click = next_position
+
+4. make tree_placeholder
+
+5. make tree_placeholder interactable
+   // player_character_placeholder !should be able to next_position to tree_placholder_position
+
+6. make viewport pan around y axis
+   // Alt + M1
+
+7. combine 3 && 4
+   make player_character_placeholder move across floor
+   make viewport pan around the y axis
+   // viewport should pan regardless of player movement
+
+8. combine 3 && 4 && 5
+   make player_character_placeholder move across floor
+   make viewport pan around the y axis
+   // viewport should pan regardless of player movement
+
+9. make axe_placeholder
+   // attach as child of player_character_placeholder to animate easier later
+
+10. make player_character_inventory logic
+    // can be as simple as an array or dictionary that tracks item counts
+    // inventory limit
+
+11. make pick_up_item && drop_item logic
+
+12. make equip_to_player_character logic
+
+13. make chop_down_tree logic
+    // if already cutting, what then?
+    // logs autoed into inventory
+    // once inventory full, stop cutting
+
+14. make save_player_character_progress && load_player_character_progress logic
+
+15. make player_character_bank logic
+    // items from player_character_inventory can be deposited && withdrawn from player_character_bank
+
+16. make name_player_character_logic
